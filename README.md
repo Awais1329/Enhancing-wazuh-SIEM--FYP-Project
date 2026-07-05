@@ -6,7 +6,6 @@ This Final Year Project (FYP) enhances the capabilities of **Wazuh SIEM** by int
 
 The project demonstrates how host-based monitoring, network intrusion detection, and AI can work together to detect suspicious activities more effectively than traditional signature-based detection alone.
 
----
 
 # Objectives
 
@@ -17,7 +16,6 @@ The project demonstrates how host-based monitoring, network intrusion detection,
 * Visualize alerts using OpenSearch Dashboards.
 * Improve incident detection through cross-layer security monitoring.
 
----
 
 # Features
 
@@ -30,7 +28,7 @@ The project demonstrates how host-based monitoring, network intrusion detection,
 * Security event investigation
 * Multi-source log analysis
 
----
+
 
 # System Architecture
 
@@ -57,7 +55,6 @@ The project consists of the following components:
 7. Alerts are displayed in OpenSearch Dashboards.
 8. Security analysts investigate generated alerts.
 
----
 
 # Technologies Used
 
@@ -89,11 +86,10 @@ The project consists of the following components:
 * VMware Workstation
 * VirtualBox
 
----
+
 
 # Project Structure
 
-```
 FYP/
 │
 ├── AI_Model/
@@ -117,9 +113,7 @@ FYP/
 ├── README.md
 │
 └── requirements.txt
-```
 
----
 
 # Installation
 
@@ -127,7 +121,7 @@ FYP/
 
 Install Ubuntu Server.
 
----
+
 
 ## Step 2
 
@@ -139,31 +133,28 @@ Install Wazuh Manager.
 
 Install OpenSearch Indexer.
 
----
+
 
 ## Step 4
 
 Install OpenSearch Dashboards.
 
----
 
 ## Step 5
 
 Install Wazuh Agent on monitored machines.
 
----
 
 ## Step 6
 
 Install and configure Suricata IDS.
 
----
+
 
 ## Step 7
 
 Connect Suricata logs with Wazuh.
 
----
 
 ## Step 8
 
@@ -171,11 +162,8 @@ Install Python dependencies.
 
 Example:
 
-```
 pip install -r requirements.txt
-```
 
----
 
 ## Step 9
 
@@ -183,11 +171,8 @@ Train the AI model.
 
 Example:
 
-```
-python train.py
-```
 
----
+python train.py
 
 ## Step 10
 
@@ -195,11 +180,8 @@ Run the anomaly detection module.
 
 Example:
 
-```
 python predict.py
-```
 
----
 
 # AI Module
 
@@ -213,7 +195,6 @@ The AI component analyzes security logs collected by Wazuh to identify anomalous
 * Anomaly prediction
 * Alert generation
 
----
 
 # Log Sources
 
@@ -226,7 +207,6 @@ The project monitors logs from:
 * Network traffic
 * Security events
 
----
 
 # Attack Simulations
 
@@ -240,7 +220,6 @@ The following activities were performed to validate the solution:
 
 These simulations verified that Wazuh, Suricata, and the AI module successfully detected and reported suspicious activities.
 
----
 
 # Dashboard
 
@@ -254,7 +233,6 @@ OpenSearch Dashboards provide visualizations for:
 * Host monitoring
 * System health
 
----
 
 # Results
 
@@ -267,7 +245,6 @@ The implemented solution successfully:
 * Demonstrated AI-assisted anomaly detection.
 * Simplified security event investigation using a unified dashboard.
 
----
 
 # Future Improvements
 
@@ -278,6 +255,5 @@ The implemented solution successfully:
 * Deploy in production-scale environments.
 * Add automated reporting and notifications.
 
----
 
 
