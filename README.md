@@ -88,31 +88,7 @@ The project consists of the following components:
 
 
 
-# Project Structure
 
-FYP/
-│
-├── AI_Model/
-│   ├── train.py
-│   ├── predict.py
-│   ├── dataset/
-│   └── models/
-│
-├── Suricata/
-│
-├── Wazuh/
-│
-├── OpenSearch/
-│
-├── Screenshots/
-│
-├── Documentation/
-│
-├── Reports/
-│
-├── README.md
-│
-└── requirements.txt
 
 
 # Installation
