@@ -5,8 +5,6 @@
 This Final Year Project (FYP) enhances the capabilities of **Wazuh SIEM** by integrating **Suricata IDS** and **AI-based anomaly detection** to improve security monitoring and incident detection. The system collects security logs from multiple sources, analyzes them using SIEM and machine learning techniques, and presents the results through a centralized dashboard for efficient threat investigation.
 
 The project demonstrates how host-based monitoring, network intrusion detection, and AI can work together to detect suspicious activities more effectively than traditional signature-based detection alone.
-
-
 # Objectives
 
 * Deploy and configure Wazuh SIEM.
@@ -27,8 +25,6 @@ The project demonstrates how host-based monitoring, network intrusion detection,
 * Interactive dashboards
 * Security event investigation
 * Multi-source log analysis
-
-
 
 # System Architecture
 
